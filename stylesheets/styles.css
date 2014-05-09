@@ -194,8 +194,9 @@ label {
     label small {
         color: darkkhaki;   
     }
-    label.upload {
+    label.upload input {
         border: 1px solid #aaa;
+        display: block;
         padding: 1em;
     }
 input {
