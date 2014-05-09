@@ -1,8 +1,8 @@
-@import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,700,200);
 
 body {
   padding:50px;
-  font:18px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font:16px/1.5 Raleway, "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#777;
   font-weight:300;
 }
@@ -34,7 +34,7 @@ h3, h4, h5, h6 {
 
 a {
   color:#39c;
-  font-weight:400;
+  font-weight:300;
   text-decoration:none;
 }
 
@@ -188,14 +188,18 @@ hr {
  * Form 
  **************************/
 label {
-    margin: 10px;
+    margin: 30px 0px;
     display:block;
 }
     label small {
         color: darkkhaki;   
     }
+    label.upload {
+        border: 1px solid #aaa;
+        padding: 1em;
+    }
 input {
-    border: 1px solid #eee;
+    border: 1px solid #aaa;
     padding: 10px;
     border-radius: 3px;
 }
@@ -207,7 +211,7 @@ textarea {
     width: 85%;
     min-height: 55px;
     padding: 5px;
-    border: 1px solid #eee;
+    border: 1px solid #aaa;
 }
 
 .button {
@@ -320,9 +324,15 @@ footer {
 
 label > span {
     min-width: 20%;
+    font-weight: 700;
     display: inline-block;    
 }
 
 small {
     
+}
+
+span.gold {
+    display:inline-block;
+    color:darkkhaki;
 }
