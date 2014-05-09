@@ -50,6 +50,10 @@ a small {
   margin:0 auto;
 }
 
+.hidden {
+    display: none;
+}
+
 blockquote {
   border-left:1px solid #e5e5e5;
   margin:0;
@@ -157,6 +161,10 @@ header ul a strong {
   font-size:14px;
   display:block;
   color:#222;
+}
+
+.logo {
+    margin-bottom: 1em;
 }
 
 section {
