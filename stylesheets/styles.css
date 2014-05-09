@@ -59,6 +59,7 @@ blockquote {
   margin:20px 0 20px 0;
   padding:0 0 0 20px;
   font-style:italic;
+  font-weight: 700;
 }
 
 code, pre {
@@ -191,9 +192,6 @@ label {
     margin: 30px 0px;
     display:block;
 }
-    label small {
-        color: darkkhaki;   
-    }
     label.upload input {
         border: 1px solid #aaa;
         display: block;
@@ -335,5 +333,5 @@ small {
 
 span.gold {
     display:inline-block;
-    color:darkkhaki;
+    color: #042c5e;
 }
