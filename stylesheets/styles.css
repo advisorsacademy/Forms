@@ -327,8 +327,10 @@ label > span {
     display: inline-block;    
 }
 
-small {
-    
+small.disclaimer {
+    font-weight: 400;
+    display: block;
+    margin-bottom: 20px;
 }
 
 span.gold {
